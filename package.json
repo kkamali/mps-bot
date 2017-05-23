@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kkamali/mps-bot/issues"
   },
-  "homepage": "https://github.com/kkamali/mps-bot#readme"
+  "homepage": "https://github.com/kkamali/mps-bot#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.3"
+  }
 }
