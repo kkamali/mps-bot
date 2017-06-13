@@ -46,7 +46,7 @@ bot.dialog('/', intents);
 
 intents.matches('mps_general', [
     function(session, args, next) {
-        session.send("Microsoft Production Studios is a state of the art multimedia facility specializing in all types of media from smaller scale talking head videos, to large scale greenscreen and broadcast videos. We also specialize in audio with two 5.1/7.1 top of the line audio control/mixdown studios with audio booths and other types of interactive media, such aws AR/VR/, UI/UX, Touch Screens.");
+        session.send("Microsoft Production Studios is a state of the art multimedia facility specializing in all types of media from smaller scale talking head videos, to large scale greenscreen and broadcast videos. We also specialize in audio with two 5.1/7.1 top of the line audio control/mixdown studios with audio booths and other types of interactive media, such as AR/VR/, UI/UX, Touch Screens.");
     }
 ]);
 
@@ -70,6 +70,9 @@ intents.matches('personnel', [
 
 intents.matches('count_sound_stages', [
     function(session, args, next) {
+        var card = createCard(args.intent, session);
+        var msg = new builder.Message(session).addAttachment(card);
+        session.send(msg);
         session.send("We offer two large stages (A,B) and two smaller stages (D,E). They are all equipped with green screen capability. We also offer two voice over booths and two audio control rooms.");
     }
 ]);
@@ -88,7 +91,7 @@ intents.matches('editing_software', [
 
 intents.matches('count_audio_control', [
     function(session, args, next) {
-        session.send("We have three ACR (audio control rooms), 2 voice over booths and a few post production audio design rooms.")
+        session.send("We have three ACR (audio control rooms), 2 voice over booths and a few post production audio design rooms.");
     }
 ]);
 
@@ -253,5 +256,16 @@ intents.matches('info_vendors', [
         session.send("Email AVLSOW@microsoft.com.");
     }
 ]);
+
+function createCard(intent, session) {
+    if (intent == "count_sound_stages") {
+        return new builder.HeroCard(session)
+            .title("Studio D")
+            .subtitle("One of our sound stages at MPS")
+            .images([
+                builder.CardImage.create(session, "https://ituoyw.dm2302.livefilestore.com/y4mgGEolZw9cSdPADEYbPvNri9T069D395crfgCXbi0kalm40Dl3qKEIDjiJjyJKmZ8DkJaiXjGeAILA4BLJb58LAMzKVqble9xByMoIEOvLKBA-E8msK9mVZcRgwT5iYpM-13jVIlM8Ich5FW9qqvFVLXOWr2BSL3jA5DyXVNDKI-_tofLtM0FfgFfF06bzPXHTM9WlaxSK870uxzGhLZHcVs3P88QY_I-T1z9vBMCb2c?width=7360&height=4912&cropmode=none")
+            ]);
+    }
+}
 
 intents.onDefault(builder.DialogAction.send("I'm sorry, I don't understand. You can ask me things like 'What is MPS?' or 'What kind of services does MPS provide?'"));
