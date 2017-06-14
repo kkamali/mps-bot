@@ -47,6 +47,7 @@ bot.dialog('/', intents);
 intents.matches('mps_general', [
     function(session, args, next) {
         session.send("Microsoft Production Studios is a state of the art multimedia facility specializing in all types of media from smaller scale talking head videos, to large scale greenscreen and broadcast videos. We also specialize in audio with two 5.1/7.1 top of the line audio control/mixdown studios with audio booths and other types of interactive media, such as AR/VR/, UI/UX, Touch Screens.");
+        session.send("Check out our 3D virtual tour here: https://my.matterport.com/show/?m=LgBoUPH6s4Y");
     }
 ]);
 
@@ -65,6 +66,7 @@ intents.matches('services', [
 intents.matches('personnel', [
     function(session, args, next) {
         session.send("Yes, we have all of the talent available to create the most compelling and relevant media for your audience and market.");
+        session.send("Please Contact bookit@microsoft.com");
     }
 ]);
 
@@ -74,12 +76,17 @@ intents.matches('count_sound_stages', [
         var msg = new builder.Message(session).addAttachment(card);
         session.send(msg);
         session.send("We offer two large stages (A,B) and two smaller stages (D,E). They are all equipped with green screen capability. We also offer two voice over booths and two audio control rooms.");
+        session.send("Check out our Matterport scans of stages A, B, C, here --  https://my.matterport.com/show/?m=LgBoUPH6s4Y");
     }
 ]);
 
 intents.matches('count_editing_bays', [
     function(session, args, next) {
+        var card = createCard(args.intent, session);
+        var msg = new builder.Message(session).addAttachment(card);
+        session.send(msg);
         session.send("We have 16 edit suites, 3 of which are larger suites. We can expand to 20 suites.");
+        session.send("Check out one of our edit bays here -- https://my.matterport.com/show/?m=LgBoUPH6s4Y");
     }
 ]);
 
@@ -122,12 +129,13 @@ intents.matches('music_services', [
 intents.matches('streaming_services', [
     function(session, args, next) {
         session.send("Yes, streaming will be provided through both Skype Meeting Broadcast and MPS Live for internal audiences, built on Azure Media Services through a collaboration between Production Studios and IT. Encryption and authentication meet ISRM standards for HBI content.");
+        session.send("Contact StreamTeam@microsoft.com for more info.");
     }
 ]);
 
 intents.matches('book_services', [
     function(session, args, next) {
-        session.send("Contact StreamTeam@microsoft.com for more information.");
+        session.send("Email bookit@microsoft.com or you can call us at 425.706.7501.");
     }
 ]);
 
@@ -264,6 +272,16 @@ function createCard(intent, session) {
             .subtitle("One of our sound stages at MPS")
             .images([
                 builder.CardImage.create(session, "https://ituoyw.dm2302.livefilestore.com/y4mgGEolZw9cSdPADEYbPvNri9T069D395crfgCXbi0kalm40Dl3qKEIDjiJjyJKmZ8DkJaiXjGeAILA4BLJb58LAMzKVqble9xByMoIEOvLKBA-E8msK9mVZcRgwT5iYpM-13jVIlM8Ich5FW9qqvFVLXOWr2BSL3jA5DyXVNDKI-_tofLtM0FfgFfF06bzPXHTM9WlaxSK870uxzGhLZHcVs3P88QY_I-T1z9vBMCb2c?width=7360&height=4912&cropmode=none")
+            ]);
+    }
+    if (intent == "count_editing_bays") {
+        return new builder.VideoCard(session)
+            .title("Edit Bay")
+            .subtitle("One of our edit bays at MPS")
+            .media([
+                {
+                    url: "https://onedrive.live.com/download?cid=55C97BAF21B67854&resid=55C97BAF21B67854%21117&authkey=AH0pdJQx5I9DNPA" 
+                }
             ]);
     }
 }
