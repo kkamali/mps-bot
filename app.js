@@ -109,6 +109,7 @@ intents.matches('audio_equipment', [
 intents.matches('mixdown_rooms', [
     function(session, args, next) {
         session.send("We have 5 mixing rooms.");
+        session.send("Check out one of our mixdown rooms here - https://my.matterport.com/show/?m=LgBoUPH6s4Y");
     }
 ]);
 
