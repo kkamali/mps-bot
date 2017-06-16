@@ -80,7 +80,7 @@ intents.matches('count_editing_bays', [
         var msg = new builder.Message(session).addAttachment(card);
         session.send(msg);
         session.send("We have 16 edit suites, 3 of which are larger suites. We can expand to 20 suites.");
-        session.send("Check out one of our edit bays here -- https://my.matterport.com/show/?m=LgBoUPH6s4Y");
+        session.send("Check out one of our edit bays here -- http://msvr.us/Editsuite");
     }
 ]);
 
@@ -96,7 +96,7 @@ intents.matches('count_audio_control', [
         var msg = new builder.Message(session).addAttachment(card);
         session.send(msg);
         session.send("We have three ACR (audio control rooms), 2 voice over booths and a few post production audio design rooms.");
-        session.send("Check out our Audio control rooms and VO booths here --  https://my.matterport.com/show/?m=LgBoUPH6s4Y");
+        session.send("Check out our Audio control rooms and VO booths here --  http://msvr.us/acr");
     }
 ]);
 
@@ -128,6 +128,7 @@ intents.matches('music_services', [
 intents.matches('streaming_services', [
     function(session, args, next) {
         session.send("Yes, streaming will be provided through both Skype Meeting Broadcast and MPS Live for internal audiences, built on Azure Media Services through a collaboration between Production Studios and IT. Encryption and authentication meet ISRM standards for HBI content.");
+        session.send("Check out our broadcast service center here -- http://msvr.us/bscmay17"); 
         session.send("Contact StreamTeam@microsoft.com for more info.");
     }
 ]);
