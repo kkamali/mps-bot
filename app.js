@@ -121,7 +121,7 @@ intents.matches('square_footage_mps', [
 
 intents.matches('music_services', [
     function(session, args, next) {
-        session.send("We offer custom composition, sound design and have an extensive needle drop music library.");
+        session.send("We offer custom composition, sound design and have an extensive needle drop music library. Please contact stmusic@microsoft.com!");
     }
 ]);
 
@@ -141,12 +141,13 @@ intents.matches('book_services', [
 intents.matches('pay_services', [
     function(session, args, next) {
         session.send("There are two ways to pay: we cross charge an internal SAP code or submit an external bill to an outside company.");
+        session.send("Contact StreamTeam@microsoft.com for more information.");
     }
 ]);
 
 intents.matches('vr_services', [
     function(session, args, next) {
-        session.send("we work with an extensive group of developers and outside agencies to develop AR/MR/VR work.");
+        session.send("We work with an extensive group of developers and outside agencies to develop AR/MR/VR work.");
     }
 ]);
 
@@ -261,6 +262,12 @@ intents.matches('approved_vendors', [
 intents.matches('info_vendors', [
     function(session, args, next) {
         session.send("Email AVLSOW@microsoft.com.");
+    }
+]);
+
+intents.matches('book_conference_room', [
+    function(session, args, next) {
+        session.send("Please contact StreamTeam@microsoft.com for more information.");
     }
 ]);
 
