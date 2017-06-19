@@ -326,7 +326,14 @@ intents.matches('pictures', [
         var msg = new builder.Message(session).addAttachment(card);
         session.send(msg);
         session.send("Check out our 3D virtual tour here: https://my.matterport.com/show/?m=LgBoUPH6s4Y");
-                session.send("Would you like to learn more about MPS? You can ask me questions like 'What kind of services do you provide?' or 'How many editing rooms do you have?'");
+        session.send("Would you like to learn more about MPS? You can ask me questions like 'What kind of services do you provide?' or 'How many editing rooms do you have?'");
+    }
+]);
+
+intents.matches('videos', [
+    function(session, args, next) {
+        session.send("We create ads, training videos, broadcasts, case studios, demo, sizzle reels, game trailers and animated videos here at Microsoft Studios!");
+        session.send("Would you like to learn more about MPS? You can ask me questions like 'What kind of services do you provide?' or 'How many editing rooms do you have?'");
     }
 ]);
 
