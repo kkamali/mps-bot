@@ -368,7 +368,7 @@ function createCard(intent, session) {
         return new builder.HeroCard(session)
             .title("Microsft Production Studios")
             .images([
-                builder.CardImage.create(session, "https://h2byka.dm2302.livefilestore.com/y4mnmxjY-STMamVS18JIkE33oxXP2Nf5015NEeNySngxgWj8idKrcYvHrJCSs4d8_nLbxzLl_eAhE-JR_NtKUq6XAM_nWM3rvcqGKqba5sO2USwmKIm1necibT1Cn06LuNsAfmzK7t28JpCTYObVAqTHR9kzLrZTv9QV07-rya22B9FrNHCirZJcokqdmpcrm3_6QoiQw-sAxzBuSPDZFmi5xkPjuY-tAo8633QyzW0pzk?width=7360&height=4912&cropmode=none", "https://5asfwa.dm2302.livefilestore.com/y4mvLljYwKU1QePvBzLHmDWxQ1oI9WPa2wqVXSHfoy9rukBnhcv4wdypekBJ-G1WzHaYqOxoe3t-t6FW4Q0B1IJc4SkhNsalqcgrtdm6PsF-9L2GtdDj8O1-LP8gkFwfLDV0I0S3sfwuBIhhIgxKvqkQu5nU1-lI2GKWECva1mHDclT_vM4VcQgc0o2WQ_SFXaxGVxDtcsDtaM0FfZIWsoGZ7igTPjlCATFTuBVQCqjqUg?width=7360&height=4912&cropmode=none")
+                builder.CardImage.create(session, "https://h2byka.dm2302.livefilestore.com/y4mnmxjY-STMamVS18JIkE33oxXP2Nf5015NEeNySngxgWj8idKrcYvHrJCSs4d8_nLbxzLl_eAhE-JR_NtKUq6XAM_nWM3rvcqGKqba5sO2USwmKIm1necibT1Cn06LuNsAfmzK7t28JpCTYObVAqTHR9kzLrZTv9QV07-rya22B9FrNHCirZJcokqdmpcrm3_6QoiQw-sAxzBuSPDZFmi5xkPjuY-tAo8633QyzW0pzk?width=7360&height=4912&cropmode=none")
             ]);
     }
 }
