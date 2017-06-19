@@ -335,9 +335,6 @@ function createCard(intent, session) {
         return new builder.VideoCard(session)
             .title("Studio A")
             .subtitle("One of our sound stages at MPS")
-            .image([
-                builder.CardImage.create(session, "https://h2byka.dm2302.livefilestore.com/y4mnmxjY-STMamVS18JIkE33oxXP2Nf5015NEeNySngxgWj8idKrcYvHrJCSs4d8_nLbxzLl_eAhE-JR_NtKUq6XAM_nWM3rvcqGKqba5sO2USwmKIm1necibT1Cn06LuNsAfmzK7t28JpCTYObVAqTHR9kzLrZTv9QV07-rya22B9FrNHCirZJcokqdmpcrm3_6QoiQw-sAxzBuSPDZFmi5xkPjuY-tAo8633QyzW0pzk?width=7360&height=4912&cropmode=none")
-            ])
             .media([
                 {
                     url: "https://onedrive.live.com/download?cid=55C97BAF21B67854&resid=55C97BAF21B67854%21119&authkey=ACmRFtvAKCkQXJc"
