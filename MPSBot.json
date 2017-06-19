@@ -1,0 +1,6791 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "MPSBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "ada_standards"
+    },
+    {
+      "name": "approved_vendors"
+    },
+    {
+      "name": "audio_equipment"
+    },
+    {
+      "name": "book_by_hour"
+    },
+    {
+      "name": "book_conference_room"
+    },
+    {
+      "name": "book_crew"
+    },
+    {
+      "name": "book_services"
+    },
+    {
+      "name": "book_vr_services"
+    },
+    {
+      "name": "closed_captioning"
+    },
+    {
+      "name": "conference_rooms"
+    },
+    {
+      "name": "count_audio_control"
+    },
+    {
+      "name": "count_editing_bays"
+    },
+    {
+      "name": "count_sound_stages"
+    },
+    {
+      "name": "edit_bays_editors"
+    },
+    {
+      "name": "editing_software"
+    },
+    {
+      "name": "encode_archive"
+    },
+    {
+      "name": "green_rooms"
+    },
+    {
+      "name": "hours"
+    },
+    {
+      "name": "info_vendors"
+    },
+    {
+      "name": "mixdown_rooms"
+    },
+    {
+      "name": "mps_general"
+    },
+    {
+      "name": "music_services"
+    },
+    {
+      "name": "network_support"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "open_po"
+    },
+    {
+      "name": "own_crew"
+    },
+    {
+      "name": "pay_services"
+    },
+    {
+      "name": "personnel"
+    },
+    {
+      "name": "pictures"
+    },
+    {
+      "name": "pricing"
+    },
+    {
+      "name": "public_availability"
+    },
+    {
+      "name": "rehearsals"
+    },
+    {
+      "name": "security"
+    },
+    {
+      "name": "services"
+    },
+    {
+      "name": "square_footage_mps"
+    },
+    {
+      "name": "square_footage_sound_stages"
+    },
+    {
+      "name": "streaming_services"
+    },
+    {
+      "name": "tour"
+    },
+    {
+      "name": "type_vr_services"
+    },
+    {
+      "name": "videos"
+    },
+    {
+      "name": "vr_services"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "pay",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "purchase",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "when are you open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when do you open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "bill",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "what are your hours of operation?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "what hours are you open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "purchase services",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "public use",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "available services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "how do i open a po?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "hours of operation",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "what do you do here?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "can i see some pictures?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "how do i book a conference room?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "pay services",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "who can use it?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "i would like information on mps",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like information on microsoft production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about mps",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about microsoft production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is mps",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is mps?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is microsoft production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is microsoft production studios?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "available for public use",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "what is it's availability to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "is it available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "who can use them?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "who can use mps?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "who can use microsoft production studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use microsoft production studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use mps?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "is mps available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "is microsoft production studios available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "what services does mps provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "services at mps",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what are its services?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what services does microsoft production studio provide",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "microsoft production studios services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "mps services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "services at microsoft studios",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "available services at microsoft production studios",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "available services at mps",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what personnel does microsoft production studios have",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "what personnel does mps have",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "is personnel available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there editors available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there directors available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there vfx artists available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have vfx artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have vfx artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studio provide vfx artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide vfx artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studio have graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there graphics artists available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there audio engineers available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there sound designers available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages do you have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages does microsoft production studios have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages does mps have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages are there?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "sound stages number",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many editing rooms does mps have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing bays does mps have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing rooms does microsoft production studios have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing bays does microsoft production studios have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing rooms are there?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing bays are there?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "what type of software does microsoft production studios use for editing?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of software does mps use for editing?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of editing software do they use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of editing software do you use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of editing software is used?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "editing software",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of software do the editing bays use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of software do the editing rooms use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of support is there for editing?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of support do the editing rooms have?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of support do the editing bays have?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of equipment do the sound people use?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment do your sound people use?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment do you use?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment does microsoft production studios use?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment does mps use?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what kind of audio equipment does microsoft production studios have?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment does microsoft production studios have?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what kind of audio equipment does mps have?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment does mps have?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what kind of audio do you have?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what type of audio equipment do you have?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "how many mixdown rooms does microsoft production studios have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixdown rooms does mps have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixdown rooms do you have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixdown rooms are there?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixdown rooms?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how big is microsoft production studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how big is mps?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square footage does microsoft production studios have?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how much square footage does microsoft production studios have?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square footage does mps have?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how much square footage does mps have?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage for mps?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage of microsoft production studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage of mps?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage for microsoft production studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "sound stages size",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how much square footage are the sound stages?",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many square feet are the sound stages?",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "what's the size of the sound stages?",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how big are the sound stages?",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage for the sound stages?",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "what's the square footage of the sound stages?",
+      "intent": "square_footage_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how do you book services?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how can i book services?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "booking services",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book services at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book services at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how can i pay for services at microsoft production studios",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how can i pay for services at mps?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you pay for services here?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how can i pay for services here?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you pay for services at microsoft production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you pay for services at mps?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "does mps create ar applications",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps create vr applications",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps make ar",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps make ar experiences",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps do vr",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps make vr experiences",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide or create vr ar experiences",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide or create vr ar experiences",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "what are the vr capabilities at mps?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "what are the vr capabilities at microsoft production studios ?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can i use mps to make ar experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can i use mps to make vr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios create vr applications",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of vr ar experience does microsoft production studios make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of vr ar experience does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr ar experience does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr ar experience do you make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr ar experiences do you create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of vr ar experiences do you create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of vr ar experience does microsoft production studios create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr ar experience does microsoft production studios create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of vr ar experience does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr ar experience does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of experiences does microsoft production studios make ?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of experiences does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of experiences does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr ar experience does microsoft production studios make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of experiences does microsoft production studios make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of experiences does microsoft production studios make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of experiences does microsoft production studios make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of experiences does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of experiences does mps make ?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of experiences does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of experiences does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what type of vr experience can you make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of vr experience can you create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of vr experiences can be made?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of vr experiences can be created?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of ar experiences does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of ar experiences does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of ar experiences does microsoft production studios make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kinds of ar experiences does microsoft production studios create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of ar experiences do you create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of ar experiences do you make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of ar experiences can be made?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of ar experiences can be created?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "booking mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "booking mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "booking ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "booking vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book vr ar or mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i book vr ar or mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book vr ar or mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i book mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i book mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i book ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i book vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "i would like to book mr services",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "i would like to book mixed reality services",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "i would like to book ar services",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "i would like to book vr services",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "edit bays and editors",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do editors come with edit bays?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do edit bays come with editors?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do i need to hire microsoft production studios people?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "do i need to hire mps people?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my own people?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own crew?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my own editor?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own editor?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my own dp?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own dp?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my crew?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my editor?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my crew?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my editor?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring in my crew?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my dp?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my dp?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my own camera op?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my own camera operator?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own camera operator?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own camera op?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my camera op?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my camera operator?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own director?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my director?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my director?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i use my own director?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i book services by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book stages by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book a crew by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book edit bays by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book facilities by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios archive media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does mps archive media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios encode media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does mps encode media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios encode and archive media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does mps encode and archive media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does mps host rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does mps host rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios host rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios host rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "are there rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does mps provide subtitles for videos?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "does mps provide closed captioning?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can my videos get subtitles?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can my videos get closed captioning?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can i get subtitles on my videos?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can i get closed captioning on my videos?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew at microsoft production studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew at mps?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew for a project?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how does microsoft production studios protect media from theft?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "how does mps protect media from theft?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "how can you protect my media from theft?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "what kind of security does the network have?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "what's the network security like?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "what kind of security does microsoft production studios have?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "what kind of security does mps have?",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "protecting media from corporate theft",
+      "intent": "security",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with microsoft production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with mps?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms at mps?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "do you have green rooms?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms for vips?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms at microsoft production studios?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "is it possible to take a tour?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i tour microsoft production studios?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i tour mps?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i take a tour?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i tour the facilities?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for sound design gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for sound design rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for editing gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for editing rentals?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for audio rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for audio gear rentals?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of stage rentals?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of sound design rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of sound design gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of editing rentals?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of editing gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of audio rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing of gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the pricing audio gear rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "where can i find pricing?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for stage rentals?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for a stage rental?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios follow ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does mps follow ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios adhere to ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does mps adhere to ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have offices i can use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have offices?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have offices available?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have offices i can use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have offices?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have offices available?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have conference rooms i can use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have conference rooms?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have conference rooms available?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have conference rooms i can use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have conference rooms?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have conference rooms available?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have conference rooms for use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have conference rooms for use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have offices for use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "does mps have offices for use?",
+      "intent": "conference_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many approved vendors does microsoft production studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved video vendors does microsoft production studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved media vendors does microsoft production studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved vendors does mps work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved video vendors does mps work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved media vendors does mps work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "where i can find more information on approved vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find more information on vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find info on vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find more info on approved video vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me more info on approved vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find more information on approved video vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find more information on approved media vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me more info on approved video vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me more info on approved media vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many audio control studios are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control studios do you have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control studios does microsoft production studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control studios does mps have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms do you have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms does microsoft production studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms does mps have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many acrs do you have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many acrs does microsoft production studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many acrs does mps have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many acrs are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms does microsoft production studios have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms does mps have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms are there?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms do you have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps have music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "are there music services that you provide?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "are there music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide skype broadcast and streaming services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide skype broadcast and streaming services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you offer skype broadcast and streaming services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide streaming services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide streaming services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you provide streaming services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide skype broadcast services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer skype broadcast services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you offer skype broadcast services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide xr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide ar experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide vr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of network does microsoft production studios support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of network does microsoft production studios have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of network does mps support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of network does mps have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of network do you support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of network do you have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kinds of vr experiences does mps make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of vr experiences does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "number of sound stages",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "i would like info on b127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is b127?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like information about studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like info on studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is studios?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about the studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about b127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like information on b127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is ms127?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like info on ms127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like to know more about ms127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like to know more about b127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about ms127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like some information on microsoft studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like more info on microsoft studios?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is microsoft studios?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i want to know more about microsoft studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about microsoft studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "more about ms127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "more about b127",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "more about the production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "i would like some information on the production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "what is the production studios?",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "tell me about the production studios",
+      "intent": "mps_general",
+      "entities": []
+    },
+    {
+      "text": "who can use b127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "who can use ms127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "who can use microsoft studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "who can use the production studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "are the production studios available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "is microsoft studios available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "is ms127 available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "is b127 available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "are the studios available to the public?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use microsoft studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use the production studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use ms127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use b127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can other people use the studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "what are the available services at the production studios?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what are the available studios at microsoft studios?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what are the available services at mps?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what are the available services at ms127?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what are the available services at b127?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what are the available services at studios?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "available services at microsoft studios",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "available services at studios",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "available services at ms127",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "available services at b127",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "studios services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "production studios available services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "studios available services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "ms127 available services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "b127 available services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "b127 services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "ms127 services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "microsoft studios services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "production studios services",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does microsoft production studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does mps have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does microsoft production studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects are available?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does mps provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does ms127 provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does ms127 have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does b127 provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of projects does b127 have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects do the studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects do the studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects do the studios do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does microsoft studios do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does microsoft studios produce?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does microsoft studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects do the production studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects do the production studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does microsoft production studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does microsoft production studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does mps have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects are there?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of video projects does mps provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects does microsoft studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects does microsoft studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects do the studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects do the studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects do the production studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects do the production studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects does microsoft production studios provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects does microsoft production studios have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects does mps have?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects are there?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what types of media projects does mps provide?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "do the studios have producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps have producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there producers available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios provide producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are editors available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are directors available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are producers available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are audio engineers available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are sound designers available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are vfx artists available?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does production studios provide producers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have vfx artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps provide motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 have motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have motion graphics artists?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios have sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 have sound designers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 have audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios have audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide audio engineers?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios have directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 have directors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios have editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 have editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide editors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "how many edit studios does mps have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit studios are there?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms does b127 have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms does ms127 have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms do the production studios have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms do the studios have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms does mps have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms are there?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit studios does ms127 have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit studios does b127 have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing rooms do you have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing bays do you have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing studios do you have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms do you have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many editing studios are there?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many sets does ms127 have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets do the studios have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets does the production studios have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets are at microsoft studios?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets are at b127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets are at ms127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages are at ms127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages are at mps?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages are at microsoft studios?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages does microsoft studios have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages do the production studios have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages does b127 have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages does ms127 have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets does microsoft production studios have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets does mps have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "number of sets",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets are there?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many sets does b127 have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "what type of software do the editing rooms support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of software do the edit rooms support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of software do the editing bays support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of software do the editing studios support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of support do the editing studios have?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of support do the edit studios have?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what type of support do the edit rooms have?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the editing studios support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the edit studios support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the editing bays support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the edit rooms support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the editing rooms support?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do you use in the edit rooms?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do you use in the editing studios?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "software that the editing studios use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "software that the edit studios use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "software that the editing bays use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "software that the editing rooms use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "software that the edit rooms use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the editing studios use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the edit studios use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the editing rooms use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do the edit rooms use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms do the studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms are at ms127?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms are at b127?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms does microsoft production studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms does mps have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms are at mps?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many acrs does b127 have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many acrs does ms127 have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms are at the studios?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms are at the production studios?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms does ms127 have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio control rooms does b127 have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many sound design rooms do the production studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios are at microsoft production studios?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios are at mps?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios are at the studios?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios do you have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios are at ms127?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio studios at b127?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many music studios does microsoft production studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many music studios does mps have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many music studios are at the production studios?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many music studios are at the studios?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many music studios are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many music studios do you have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms are at b127?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms are at ms127?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms do the studios have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mixing rooms are at the studios?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios does b127 have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios are at b127?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios does ms127 have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios are at ms127?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios are at microsoft production studios?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios does microsoft production studios have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios does mps have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios are at mps?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios do you have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many audio mix studios are there?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios offer soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios offer soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios offer music services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have soundtrack services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "are there soundtracks available?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide soundtracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps have music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "are there music tracks available?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you offer soundtrack services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 have music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios have music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios offer music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have music tracks?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios offer music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "are there music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios offer music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does mps have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios have music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios offer music searches?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book services at the production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book services at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book services at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book services at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book services at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book services at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book services at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book services at the production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book services at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book facilities at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book facilities at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book facilities at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book facilities at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book facilities at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book facilities at the production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book facilities at the production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book facilities at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book facilities at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book facilities at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book facilities at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book facilities at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book studios at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book talent at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book talent at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book talent at the production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book talent at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book talent at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you book talent at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book talent at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book talent at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book talent at the production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book talent at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book talent at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book talent at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve studios at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve talent at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve facilities at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve services at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve services at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve facilities at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve talent at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve studios at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve services at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve talent at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve facilities at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve studios at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve services at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve facilities at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve talent at microsoft production studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve studios at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve facilities at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve talent at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve services at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services at the studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services at the production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services at ms127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services at b127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services at microsoft production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you bill for services at mps?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services at microsoft production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services at mps?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services at the production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services at the studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services at ms127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "how do you purchase services at b127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios create vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios create vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios create vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps create vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 create vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 create vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios offer ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios offer ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios offer ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios provide ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the production studios provide ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios provide ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps provide mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 create mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 create mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 create mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 create mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 offer mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 create xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 provide xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 provide xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 offer xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps create xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps offer xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design mr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design mixed reality experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design vr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design virtual reality experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design ar experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design xr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design virtual reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design vr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design mixed reality projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design mr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design ar projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps design xr projects?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studio design xr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios design mr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios design ar experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios design vr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 design ar experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 design vr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 design xr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 design mr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 design xr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 design mr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 design ar experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 design vr experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i reserve xr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i reserve ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how i can reserve mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how i can reserve mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how can i reserve vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve xr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you reserve mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i hold xr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i hold ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i hold mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i hold vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i hold mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you hold xr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you hold mr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you hold mixed reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you hold ar services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you hold virtual reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do you hold vr services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i hold virtual reality services?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity does mps have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity do you support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity do you have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity does ms127 support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity does ms127 have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity does b127 support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity does b127 have?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "what kind of connectivity does mps support?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "are editors included with edit studios?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "are editors included with edit bays?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do edit studios come with editors?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do editors come with edit studios?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "edit studios and editors",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "edit rooms and editors?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do editors come with edit rooms?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do edit rooms come with editors?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "are editors included with edit rooms?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees to ms127?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees to b127?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees to the studios?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees to microsoft production studios?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees to the studio?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees to mps?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i bring my own employees?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "is it possible to book stages by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "is it possible to book rooms by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "is it possible to book facilities by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book studios by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book rooms by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "how does ms127 store media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do you store media at ms127?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do you store media at microsoft production studios?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how does microsoft production studios store media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do you store media at the studios?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do the studios store media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how does b127 store media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do you store media at b127?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do you store media at mps?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how do you store media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "how does mps store media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios manage rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does b127 manage rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "do the studios host rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "do the studios manage rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does ms127 manage rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does mps manage rehearsals for events?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can my video projects get closed captioning?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can my video projects get subtitles?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can i get subtitles on my video projects?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "can i get closed captioning on my video projects?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew at b127?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew at ms127?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew at the production studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew at the studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew at microsoft production studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew at mps?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i reserve a crew?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew at ms127?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew at the production studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew at the studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i book a crew at b127?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew at ms127?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew at b127?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew at the production studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew at the studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew at microsoft production studios?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew at mps?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i hold a crew?",
+      "intent": "book_crew",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with b127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with microsoft studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with ms127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with the production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i get a po opened with the studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at microsoft production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at mps?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at the studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at the production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at microsoft studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at ms127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project order at b127",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project with microsoft production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project with mps?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project with b127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project with ms127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project with microsoft studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project at the production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project at the studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project number with the production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project number with the studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project number with b127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project number with ms127?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project number with mps?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "how do i open a project number with microsoft production studios?",
+      "intent": "open_po",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms available for executives at mps?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms available at microsoft studios?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms available at the studios?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms at mps for executives?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms at b127?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms at ms127?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms for executives?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "are there green rooms available for executives at ms127?",
+      "intent": "green_rooms",
+      "entities": []
+    },
+    {
+      "text": "do the studios follow ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "do the studios adhere to ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does b127 adhere to ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does ms127 follow the american disability act standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does ms127 adhere to ada standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "do you adhere to american disability act standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "do you follow the american disability act standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios follow the american disability act standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "do the productions studios adhere to the american disability act standards?",
+      "intent": "ada_standards",
+      "entities": []
+    },
+    {
+      "text": "how many approved vendors does microsoft studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved video vendors does ms127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved video vendors do you work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved vendors do you work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved media vendors do you work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved media vendors does b127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors does microsoft production studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors do the production studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors does b127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors do you work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors does ms127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors do the studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors does mps work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative companies do the studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved media vendors are you working with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved vendors are you working with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative vendors are you working with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative companies work with b127?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative companies work with ms127?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative companies are you working with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative companies do you work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative companies does mps work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative suppliers do the production studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative suppliers does mps have?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative suppliers does ms127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative suppliers are you working with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative suppliers work with you?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers does ms127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers are working with b127?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers are working with microsoft production studios?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers does microsoft studios work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers does mps work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers are you working with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many approved suppliers do you work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many creative suppliers does b127 work with?",
+      "intent": "approved_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you tell me about approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you tell me about approved vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can i get more information on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me more information on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me more info on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me info on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find info on approved suppliers?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find information on approved suppliers?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me info on creative vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you tell me about creative vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find information on creative vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find info on creative vendors?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find info on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find information on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "can you give me info on creative suppliers?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "where can i find information on creative suppliers?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "is there any information on approved companies?",
+      "intent": "info_vendors",
+      "entities": []
+    },
+    {
+      "text": "how many sound stages?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "can non employees use the studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non employees use the production studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non employees use ms127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non microsoft employees use b127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non microsoft employees use the studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non microsoft employees use mps?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non microsoft employees use microsoft studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "what do you do here at ms127?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what does b127 do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what does mps do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what is it you do here at the studios?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what does studios do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "is there casting for actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps do casting for actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the studios do casting?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do you do casting?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do you do casting for actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios do casting for actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does ms127 do casting?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "are there many big stages at ms127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "are there many big stages at mps?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages do you have at b127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages do you have at microsoft studios?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages do you have at mps?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages do you have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages do you have at the production studios?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages do you have at microsoft production studios?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages does ms127 have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many big stages does mps have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms does studios have?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms do you have at microsoft production studios?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms do you have at b127?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "how many edit rooms are at ms127?",
+      "intent": "count_editing_bays",
+      "entities": []
+    },
+    {
+      "text": "what kind of software is used?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "what kind of software do you use?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "how many audio recording rooms does b127 have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio recording rooms does microsoft studios have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio recording rooms does mps have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio recording rooms does ms127 have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio recording rooms are there?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "how many audio recording rooms do you have?",
+      "intent": "count_audio_control",
+      "entities": []
+    },
+    {
+      "text": "do you use protocols at b127?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "do you use protocols at the production studios?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "do you use protocols at mps?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "do you use protocols?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "how many mix rooms are at ms127?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mix rooms are there at b127?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mix rooms are there?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mix rooms do you have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "how many mix rooms does mps have?",
+      "intent": "mixdown_rooms",
+      "entities": []
+    },
+    {
+      "text": "what is the square footage of microsoft studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what is the square footage for b127?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what is the square footage of the production studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what square footage does the production studios have?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "do you create music at microsoft studios?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you create music at b127?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you make music?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you create music?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services here?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services there?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services at mps?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services at microsoft studios?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services at ms127?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "are there skype services available?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "do you do skype services at b127?",
+      "intent": "streaming_services",
+      "entities": []
+    },
+    {
+      "text": "bill services",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "billing for services",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "paying for services",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "purchasing services",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "what types of virtual reality games are made at the production studios?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of vr games do you make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of games does b127 make?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of virtual reality games does ms127 create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of vr games does mps create?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of vr games does mps do?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of virtual reality games does mps do?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "what types of vr games are created at the studios?",
+      "intent": "type_vr_services",
+      "entities": []
+    },
+    {
+      "text": "do you let non microsoft employees use ms127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "do you let non ms employees use the production studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "do you let non ms employees use b127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "do you let non microsoft employees use the studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non ms employees use ms127?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non ms employees use mps?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "can non ms employees use microsoft studios?",
+      "intent": "public_availability",
+      "entities": []
+    },
+    {
+      "text": "what type of media does microsoft production studios create?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media do you create?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media do you do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media do you make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media do you create?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media does ms127 create?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media does b127 create?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media do the production studios make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media do the studios make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media does ms127 make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what type of media does b127 make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does b127 do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does ms127 do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does microsoft studios do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does mps do?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media do the studios make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does ms127 make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does b127 make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does microsoft studios make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "what kind of media does mps make?",
+      "intent": "services",
+      "entities": []
+    },
+    {
+      "text": "do you cast actors and actresses?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do you cast actors and actresses at the studios?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does b127 cast actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do you cast actors at ms127?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios cast actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "does mps cast actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do you cast actors?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do the production studios cast actors and actresses?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "can you book a project manager at ms127?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "can you book a project manager at the studios?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "can you book a project manager at b127?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "can you book a project manager?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "can you book a project manager at mps?",
+      "intent": "personnel",
+      "entities": []
+    },
+    {
+      "text": "do you have huge stage sets there?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "do you have huge stage sets at ms127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "do you have huge stage sets at b127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "do you have huge stage sets at mps?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "do you have huge stage sets?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "does ms127 use final cut?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "does b127 use final cut?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "do microsoft studios use final cut?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "do the studios use final cut?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "does mps use final cut?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "do you use final cut?",
+      "intent": "editing_software",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios use ssl mixing boards?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "do the studios use ssl mixing boards?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "does b127 use ssl mixing boards?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "does ms127 use ssl mixing boards?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "does mps use ssl mixing boards?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "do you use ssl mixing boards?",
+      "intent": "audio_equipment",
+      "entities": []
+    },
+    {
+      "text": "what is the sq footage of the studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what is the sq footage of b127?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what is the sq footage of ms127?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what is the sq footage of mps?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what is the sq footage of the production studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision services at mps?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision services?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision at mps?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision services at the production studios?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision services at the studios?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision at b127?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision services at ms127?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision at microsoft studios?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "do you have music supervision services at microsoft studios?",
+      "intent": "music_services",
+      "entities": []
+    },
+    {
+      "text": "can i just book a video at mps?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "can i just book a video at studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "can i just book a video at the studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "can i just book a video at b127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "can i just book a video at ms127?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "can i just book a video at microsoft studios?",
+      "intent": "book_services",
+      "entities": []
+    },
+    {
+      "text": "can i directly bill the production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can i directly bill mps?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can i directly bill b127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can i directly bill microsoft studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can my team directly bill microsoft studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can my team directly bill microsoft production studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can my team directly bill b127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can my team directly bill ms127?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can my team directly bill the studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "can my team directly bill studios?",
+      "intent": "pay_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios make hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can b127 create experiences for the hololens?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can ms127 make experiences for the hololens?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can microsoft studios develop experiences for the hololens?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can mps make experiences for the hololens?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can you make experiences for the hololens?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can you make things for the hololens?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can you make hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can mps develop hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "can microsoft studios create hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do you develop hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "do the studios develop hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does b127 develop hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios create hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does mps create hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 create hololens experiences?",
+      "intent": "vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book vr services from ms127?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book vr services from b127?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book vr services from mps?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book vr services from microsoft production studios?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i book virtual reality services from you?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i get b127 to create a vr experience?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i get ms127 to create a virtual reality experience?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i get microsoft studios to create a virtual reality experience?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i get mps to create a vr experience?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "how do i get studios to create a virtual reality experience?",
+      "intent": "book_vr_services",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have its own secure network?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "does b127 have its own secure network?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios have its own secure network?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "does mps have its own secure network?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "do you have your own secure network?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "how fast is the corpnet at b127?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "how fast is the corpnet at studios?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "how fast is the corpnet at the production studios?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "how fast is the corpnet at ms127?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "how fast is the corpnet at mps?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "how fast is your corpnet?",
+      "intent": "network_support",
+      "entities": []
+    },
+    {
+      "text": "do the rooms get an editor?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do all rooms get an editor?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "do i get a room if a hire an editor?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "if i hire an editor, do i get a room?",
+      "intent": "edit_bays_editors",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at the production studios?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew here?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at microsoft production studios?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at microsoft studios?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at the studios?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at ms127?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at b127?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i work with my own crew at mps?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "is it okay that i work with my own crew?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "i only work with my own crew, is that okay?",
+      "intent": "own_crew",
+      "entities": []
+    },
+    {
+      "text": "can i book a room by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "can i book a studio by the hour?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "are services billed hourly?",
+      "intent": "book_by_hour",
+      "entities": []
+    },
+    {
+      "text": "does ms127 have high volume encoding capabilities?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does b127 have high volume encoding capabilities?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does microsoft studios have high volume encoding capabilities?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "does mps have high volume encoding capabilities?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "do you have high volume encoding capabilities?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "are your media archival protocols safe?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "do you have safe methods to archive media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "do you archive media and is it safe?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "do you archive media?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "do the studios have high volume encoding capabilities?",
+      "intent": "encode_archive",
+      "entities": []
+    },
+    {
+      "text": "can microsoft studios project manage rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can ms127 project manage rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can mps project manage rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can you project manage rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can you project manage event rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can mps accommodate large and confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can mps accommodate large rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can mps accommodate confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can you accommodate confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can you accommodate large rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can you accommodate large and confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can the studios accommodate confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can b127 accommodate large rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can ms127 accommodate large and confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can microsoft studios accommodate large rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can microsoft studios accommodate rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "can microsoft studios accommodate large and confidential rehearsals?",
+      "intent": "rehearsals",
+      "entities": []
+    },
+    {
+      "text": "does ms127 know how to close caption?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "closed captioning for media",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "do you know how to close caption media?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "does microsoft production studios know how to close caption?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "does mps know how to close caption?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "do you know how to close caption?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "does mps do subtitling?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "do you guys do subtitling?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "do the studios do subtitling?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "do the production studios do subtitling?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "does b127 do subtitling?",
+      "intent": "closed_captioning",
+      "entities": []
+    },
+    {
+      "text": "how can i book a conference room at the production studios?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "how can i book a conference room at b127?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "how can i book a conference room at the studios?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "can you book conference rooms at studios?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "can i book a conference room at the studios?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "can i book a conference room at ms127?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "can you book a conference room at microsoft studios?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "can you book a conference room at mps?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "can i book a conference room?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "how can i book a conference room?",
+      "intent": "book_conference_room",
+      "entities": []
+    },
+    {
+      "text": "what is the pricing for a video?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "how much is a video?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "how much does a video cost?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "how many stages are there?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many stages do you have?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many stages?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "can i see some pictures of microsoft studios?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "can i see some pictures of the production studios?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "can i see some pictures of b127?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "can you show me some pictures of ms127?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "can i see some pictures of the studios?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "can you show me some pictures?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "can you show me some pictures of the studio?",
+      "intent": "pictures",
+      "entities": []
+    },
+    {
+      "text": "when is b127 open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when is ms127 open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when is the microsoft production studios open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when are the production studios open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when is mps open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when are the studios open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "when is the studio open?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "is there a virtual tour available",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "do you have a virtual tour?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "virtual tour",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "how many square feet is microsoft production studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square feet is microsoft studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square feet is the studios?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square feet is b127?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square feet is ms127?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "how many square feet is mps?",
+      "intent": "square_footage_mps",
+      "entities": []
+    },
+    {
+      "text": "what are b127 hours of operation?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "what are ms127 hours of operation?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "what are microsoft studios hours of operation?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "what are microsoft studios' hours of operation?",
+      "intent": "hours",
+      "entities": []
+    },
+    {
+      "text": "how many stages are at mps?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many stages are at microsoft studios?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many stages are at b127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "how many stages are at ms127?",
+      "intent": "count_sound_stages",
+      "entities": []
+    },
+    {
+      "text": "what types of videos do the production studios make?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what kinds of videos do the studios create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what kinds of videos does b127 create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what types of videos does ms127 make?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what kinds of videos does microsoft production studios make?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what types of videos does microsoft production studios make?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what types of videos does mps create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what kind of videos does mps create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what kinds of videos do you create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what kind of videos do you create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "what types of videos do you create?",
+      "intent": "videos",
+      "entities": []
+    },
+    {
+      "text": "do you do tours?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "do you provide tours?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "are tours available?",
+      "intent": "tour",
+      "entities": []
+    }
+  ]
+}
