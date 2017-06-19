@@ -6786,6 +6786,51 @@
       "text": "are tours available?",
       "intent": "tour",
       "entities": []
+    },
+    {
+      "text": "can i view the studios at b127?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i view the studios at ms127?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i view the studios at mps?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "can i view the studios?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "what is the price for audio mix?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the price for audio mixing?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the price of audio mix per hour?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the price of audio mixing?",
+      "intent": "pricing",
+      "entities": []
+    },
+    {
+      "text": "what is the price of audio mixing per hour?",
+      "intent": "pricing",
+      "entities": []
     }
   ]
 }

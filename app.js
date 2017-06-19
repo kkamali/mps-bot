@@ -308,7 +308,7 @@ intents.matches('info_vendors', [
 
 intents.matches('book_conference_room', [
     function(session, args, next) {
-        session.send("To book a conference room, please contact StreamTeam@microsoft.com for more information.");
+        session.send("To book a conference room, please contact recep127@microsoft.com for more information.");
         session.send("Would you like to know more about MPS? You can ask me questions like 'How many approved vendors does MPS have?' or 'Can I take a tour?'");
     }
 ]);
