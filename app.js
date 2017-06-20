@@ -337,6 +337,12 @@ intents.matches('videos', [
     }
 ]);
 
+intents.matches('audio_clarification', [
+    function(session, args, next) {
+        session.send("To better answer your question, you can ask me specific questions like 'What kind of audio equipment does MPS use?' or 'How many audio control rooms does MPS have?'"); 
+    }
+]);
+
 function createCard(intent, session) {
     if (intent == "count_sound_stages") {
         return new builder.VideoCard(session)
